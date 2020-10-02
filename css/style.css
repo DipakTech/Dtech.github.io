@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+
+}
+nav .menu{
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+
+}
+nav .menu a:first-child{
+    color:rgb(126, 206, 102);
+}
+main{
+    width:100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+section{
+
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    
+}
+section h1{
+    margin:30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+
+
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px black;
+}
+section a{
+    padding:12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+section .btn1{
+    background-color:rgb(171, 212, 202);
+    color:#000;
+    
+}
+section .btn2{
+    background-color:rgb(126, 206, 102);
+    color:#fff;
+
+}
+.change-content:after{
+    content:'';
+    animation:changetxt 10s infinite linear;
+    color: rgb(108, 97, 177);
+
+}
+@keyframes changetxt{
+    0%{content:"Lumbini";}
+    20%{content:"nawalparasi";}
+    30%{content:"chitwan";}
+    60%{content:"pokhera";}
+    80%{content:"kathmandu";}
+    100%{content:"mountEverest";}
+    100%{content:"kawasoti";}
+    100%{content:"danda";}
+}
