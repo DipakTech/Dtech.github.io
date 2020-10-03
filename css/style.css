@@ -52,9 +52,7 @@ main{
     text-align: center;
     color: #fff;
 }
-section{
 
-}
 section h3{
     font-size: 35px;
     font-weight: 200;
@@ -89,12 +87,17 @@ section a{
     
 }
 section .btn1{
-    background-color:rgb(171, 212, 202);
+    background-color:rgb(49, 105, 209);
     color:#000;
-    
+}
+section .btn1:hover{
+    background-color: rgb(53, 51, 197);
+}
+section .btn2:hover{
+    background-color: rgb(55, 224, 106);
 }
 section .btn2{
-    background-color:rgb(126, 206, 102);
+    background-color:rgb(88, 224, 47);
     color:#fff;
 
 }
@@ -105,12 +108,10 @@ section .btn2{
 
 }
 @keyframes changetxt{
-    0%{content:"Lumbini";}
-    20%{content:"nawalparasi";}
-    30%{content:"chitwan";}
-    60%{content:"pokhera";}
-    80%{content:"kathmandu";}
-    100%{content:"mountEverest";}
-    100%{content:"kawasoti";}
-    100%{content:"danda";}
+    0%{content:"student";}
+    25%{content:"Web developer";}
+    50%{content:"Youtuber";}
+    75%{content:"Content writter";}
+    100%{content:"Blogger";}
+    
 }
